@@ -1,6 +1,7 @@
-package ex3;
-import java.util.Scanner;
+package ex2;
+
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -55,6 +56,7 @@ public class Main {
             a.setCompanhia(sc.next());
             System.out.println("Altitude: ");
             a.setAltitude(sc.nextInt());
+            a.
             avioes.add(a);
         }
 

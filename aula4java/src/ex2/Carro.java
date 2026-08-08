@@ -1,6 +1,6 @@
-package ex3;
+package ex2;
 
-public class Carro extends Veiculo{
+public class Carro extends Veiculo implements Motorizado{
     private String placa;
     private int portas;
 
@@ -37,13 +37,13 @@ public class Carro extends Veiculo{
     }
 
     @Override
-    public void ligar() {
-        System.out.println("carro ligado");
+    public void desligar() {
+        System.out.println("Desligando o carro");
     }
 
     @Override
-    public void desligar() {
-        System.out.println("carro desligado");
+    public void ligar() {
+        System.out.println("ligando o carro");
     }
 
     @Override
@@ -53,6 +53,6 @@ public class Carro extends Veiculo{
 
     @Override
     public void frear() {
-
+        System.out.println("Freando o carro");
     }
 }

@@ -1,6 +1,6 @@
-package ex3;
+package ex2;
 
-public class Aviao extends Veiculo {
+public class Aviao extends Veiculo implements Motorizado{
     private String companhia;
     private int motores, altitude;
 
@@ -43,12 +43,12 @@ public class Aviao extends Veiculo {
     }
 
     @Override
-    public void ligar() {
+    public void desligar() {
 
     }
 
     @Override
-    public void desligar() {
+    public void ligar() {
 
     }
 

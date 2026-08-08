@@ -1,4 +1,4 @@
-package ex3;
+package ex2;
 //abstrato pois não vou
 public abstract class Veiculo {
     protected String marca;
