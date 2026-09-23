@@ -31,7 +31,7 @@ public class Main {
         System.out.print("Digite o Telefone do cliente: ");
         c.setTelefone(sc.next());
         System.out.println("Telefone: " + c.getTelefone());
-
+        
         sc.close();
 
     }

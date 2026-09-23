@@ -1,5 +1,5 @@
 package ex1;
-import java.time.LocalDateTime;
+
 public abstract class Pagamento {
     protected double valor;
     protected String data, status;
