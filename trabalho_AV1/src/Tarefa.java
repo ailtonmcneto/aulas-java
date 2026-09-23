@@ -1,8 +1,10 @@
-import java.util.Scanner;
 public class Tarefa {
-    Scanner ler = new Scanner(System.in);
-    Scanner sc = new Scanner(System.in);
     private String nome, descricao;
+
+    public Tarefa(String nome, String descricao) {
+        this.nome = nome;
+        this.descricao = descricao;
+    }
 
     public String getNome() {
         return nome;
@@ -18,13 +20,6 @@ public class Tarefa {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
-    }
-
-    public void inserirTarefa(){
-        System.out.println("digite o nome da tarefa: ");
-        setNome(ler.nextLine());
-        System.out.println("digite o descrição da tarefa: ");
-        setDescricao(sc.nextLine());
     }
 }
 
